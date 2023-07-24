@@ -1,0 +1,26 @@
+{
+  "name": "rns-search-select-box",
+  "version": "1.0.2",
+  "description": "A custom React Native search select box component",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karatasenes/rns-search-select-box.git"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0",
+    "expo-vector-icons": "^10.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
